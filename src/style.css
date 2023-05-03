@@ -1,5 +1,6 @@
 .hello {
   color: red;
+  background: url('./bell.svg');
 }
 
 .icon {
