@@ -1,4 +1,16 @@
+@font-face {
+  font-family: 'Brandon Grotesque Regular';
+  src: url('./brandon-grotesque-regular.otf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Brandon Grotesque Regular';
+}
+
 .hello {
+  font-family: 'Brandon Grotesque Regular';
   color: red;
   background: url('./bell.svg');
 }
