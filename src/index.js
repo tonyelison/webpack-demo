@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import './style.css';
 import Icon from './bell.svg';
+import Data from './example-spreadsheet.csv';
 
 function component() {
   const element = document.createElement('div');
@@ -13,8 +14,11 @@ function component() {
   const myIcon = new Image();
   myIcon.src = Icon;
   myIcon.classList.add('icon');
-  
+
   element.appendChild(myIcon);
+
+  // log csv data
+  console.log(Data);
 
   return element;
 }
